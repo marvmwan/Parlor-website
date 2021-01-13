@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Parlor | Request Demo</title>
+        <link rel="stylesheet" href="CSS/Parlor.css">
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <h1>Parlor</h1>
+            </div>
+            <nav class="header-nav">
+                <ul class="group">
+                    <!-- <li><a href="#"><button class="header-btn">Request Demo</button></a></li> -->
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="Parlor.html">Home</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="demoContent">
+            <div class="instructions">
+            <h2>Request a demo below and our team will reach out to you.</h2>
+            <!-- <p class="subtext">Enter your information below.</p>  -->
+            </div>
+            <form class="demo-form">
+                
+                <fieldset class="roles">
+                    <legend>What is your role at the establishment?</legend>
+                    <input type="radio" id="owner" value="ownerExecutive" name="role"><label for="owner">Owner/Executive</label>
+                    <input type="radio" id="manager" value="manager" name="role"><label for="manager">Manager</label>
+                    <input type="radio" id="employee" value="employee" name="role"><label for="employee">Employee</label>
+                    <input type="radio" id="other" value="other" name="role"><label for="other">Other</label>
+                    
+                </fieldset>
+
+                <div class="inputBoxes group">
+                    <div class="form-row">
+                        <input class="firstname" type="text" name="firstName" placeholder="First Name">
+                        <input class="lastname" type="text" name="lastName" placeholder="Last Name">
+                    </div>
+                    <div class="form-row">
+                        <input class="email" type="email" name="email" placeholder="Email Address">
+                        <input class="venueName" type="text" name="venueName" placeholder="Name of establishment">
+                    </div>
+                    
+                    <div class="form-row">
+                        <input class="address" type="text" name="address" placeholder="Address"> 
+                    </div>
+                    <div class="form-row">
+                        <input class="city" type="text" name="city" placeholder="City">
+                        <input class="zipCode" type="number" name="zipCode" placeholder="Zip Code">
+                        <select name="country">
+                            <option>-Country-</option>
+                            <option value="country1">USA</option>
+                            <option value="country2">UK</option>
+                            <option value="country3">Canada</option>
+                        </select>
+                    </div>
+                    <div class="form-row">
+                        <input class="telephone" type="tel" name="telephone" placeholder="Phone Number">
+                    </div>
+                </div>
+                
+                <div class="btn-container">
+                    <a href="#"><button class="formBtn" type="submit">Request Demo</button></a>
+                </div>
+
+            </form>
+            <footer>
+                <p>&copy; 2020 - Parlor: table service made easy.</p>
+            </footer>
+        </div>
+        
+    </body>
+</html>
